@@ -1,38 +1,70 @@
 <!DOCTYPE html>
 <html>
- <head>
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-  <link href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
-  <link href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'>
-  <link href='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'>
- </head>
-  <meta charset="utf-8">
-  <title></title>
-  <body>
-   <nav id="navbar" class="navbar navbar-default navbar-fixed-top">
-     <div class="container">
-       <ul class="nav navbar-nav">      
-         <li class="active"><a href="#welcome-section">Welcome</a></li>
-         <li><a href="#projects">Work</a></li>
-         <li><a href="#contact">Contact</a></li>
-       </ul>
-     </div>
-   </nav>
 
-  <main>
-    <div id="welcome-section" class="intro">
-       <div class="intro">
-       <h1 align="center">Hey I'am Johnny</h1>
-       <img class="me" src="https://avatars1.githubusercontent.com/u/6976295?v=4" 
-       alt=" Herrreeee'ssss Johnny" height="500" width="500" >
-       <p align="center">a web developer</p>
-     </div>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+<title>Johnnys Portfolio</title>
+<!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <!-- Theme CSS -->
+    <link href="css/mycss.scss" rel="stylesheet">
+
+     <!-- Place this tag in your head or just before your close body tag. -->
+        <script async defer src="https://buttons.github.io/buttons.js"></script>
+     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+     <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+     <![endif]-->
+</head>
+
+<body>
+<nav id="navbar" class="navbar navbar-expand-sm bg-light fixed-top">
+  <a class="navbar-brand" href="#">Logo</a>
+    <ul class="nav navbar-nav">      
+      <li class="nav-item">
+         <a class="navbar-brand" href="#welcome-section"> Welcome </a></li>
+      <li class="nav-item"><a class="navbar-brand" href="#projects"> Work </a></li>
+      <li class="nav-item"><a class="navbar-brand" href="#contact"> Contact </a></li>
+    </ul>
+  </div>
+</nav>
+
+<main>
+ <div id="welcome-section" class="intro">
+    <div class="intro">
+    <h1 align="center">Hey I'am Johnny</h1>
+    <img class="me" src="https://avatars1.githubusercontent.com/u/6976295?v=4" alt=" Herrreeee'ssss Johnny" height="500" width="500" >
+    <p align="center">a web developer</p>
+  </div>
   
-    <div id="projects" class="work">
-     <h2 class="work-header">These are some of my projects..</h2>
-     <a href="https://codepen.io/johnny2136/pen/xzPNGV" target="_blank" class="project project-tile">
-       <img class="project-pic"
-       src="https://raw.githubusercontent.com/Johnny2136/Johnny2136-old-/master/img/Tribute.png" alt="project">
+ <div id="projects" class="work">
+  <h2 class="work-header">These are some of my projects..</h2>
+<a href="https://codepen.io/johnny2136/pen/xzPNGV" target="_blank" class="project project-tile">
+    <img class="project-pic"
+    src="https://raw.githubusercontent.com/Johnny2136/Johnny2136-old-/master/img/Tribute.png" 
+
+alt="project">
     <div class="project-title">Tribute Page</div>
   </a>
   <a href="https://codepen.io/johnny2136/pen/wXPZpr" target="_blank" class="project project-tile">
@@ -48,6 +80,15 @@ src="https://raw.githubusercontent.com/Johnny2136/Johnny2136-old-/master/img/por
 all</a>
 </div>
   
+ <section id="contact">
+    <header><h1>Contact</h1></header>
+       <a id='profile-link' href="https://github.com/freecodecamp" target="_blank" 
+
+class="contact-details">GitHub</a>
+  </section>
+
+</body>
+</html>
  <section id="contact">
     <header><h1>Contact</h1></header>
        <a id='profile-link' href="https://github.com/freecodecamp" target="_blank" 
